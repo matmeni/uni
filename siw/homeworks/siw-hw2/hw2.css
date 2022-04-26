@@ -8,7 +8,7 @@ body {
 	}
 
 h1 {
-	font-size: 2.5em; 
+	font-size: 3em; 
 	font-weight: bold; 
 	color:teal;
 	margin:0;
@@ -104,7 +104,6 @@ div.navy {
 	margin-right:0;
 	margin-bottom: 0.5em;
 	padding:0;
-	border-bottom:solid;
 	border-top:none;
 	border-left:none;
 	border-right:none;
@@ -114,17 +113,16 @@ div.navy {
 	}
 	
 div.home{
-	width:30%;
+	width:70%;
 	margin-top:0;
 	margin-left:0;
 	margin-right:0;
 	margin:0;
 	padding:0;
-	float:left;
+	float:none;
 	}
 
 div.homeBody{
-	width:65%;
 	background-color: #E6E6E6;
 	margin-top:0;
 	margin-left:0;
@@ -161,7 +159,7 @@ div.header {
 	
 div.footer {
 	font-size: 0.75em;
-	text-align: right
+	text-align: right;
 	}
 
 p {
@@ -179,9 +177,6 @@ span.data {
 	width:6em;
 	font-size:0.9em
 	}
-
-span.testo {
-	}
 	
 table {
 	margin-left:2.0em;
@@ -198,4 +193,14 @@ td {
 	border-width: 0.1em;
 	}
 
-.testorosso {color: red}
+
+#flex-container1 {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#flex-container2 {
+	display: flex;
+	align-items: center;
+}
